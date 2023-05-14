@@ -1,5 +1,5 @@
-
 --Table script -
+
 CREATE TABLE IF NOT EXISTS Employee_data (
  `EMPNO` INT,
  `ENAME` VARCHAR(6) CHARACTER SET utf8,
