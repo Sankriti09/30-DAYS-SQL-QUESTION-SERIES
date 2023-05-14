@@ -31,7 +31,7 @@ The employee_data table captures all the employees information starting from the
 
  </details>
  
- ### **2. Department **
+  ### **2. Department**
 
  <details><summary>
  View Table
