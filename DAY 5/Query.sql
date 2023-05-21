@@ -1,7 +1,6 @@
 
 -- DAY 5
 
-
 -- ❓Output the impressions and clicks on new columns based on the date for 1st October 2021 and 2nd October 2021
 SELECT DATE,
        SUM(CASE WHEN activity_code = 'Impressions' then value end)  AS Impressions,
