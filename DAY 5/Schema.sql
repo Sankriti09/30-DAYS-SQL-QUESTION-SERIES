@@ -8,9 +8,9 @@ CREATE TABLE Online_Activity
     Value int
 );
 
-INSERT INTO DATA1 VALUES
-		    ('01-10-2021', 'Impressions', 23),
-	      ('02-10-2021', 'Impressions', 2000),
+INSERT INTO Online_Activity VALUES
+        ('01-10-2021', 'Impressions', 23),
+	('02-10-2021', 'Impressions', 2000),
         ('03-10-2021', 'Impressions', 3000),
         ('04-10-2021', 'Impressions', 2390),
         ('05-10-2021', 'Impressions', 2322),
@@ -23,9 +23,9 @@ INSERT INTO DATA1 VALUES
         ('02-10-2021', 'Clicks', 20),
         ('03-10-2021', 'Clicks', 40),
         ('04-10-2021', 'Clicks', 27),
-		    ('05-10-2021', 'Clicks', 30),
-		    ('06-10-2021', 'Clicks', 44),
-		    ('07-10-2021', 'Clicks', 33),
-		    ('08-10-2021', 'Clicks', 12),
-		    ('09-10-2021', 'Clicks', 56),
-		    ('10-10-2021', 'Clicks', 10);
+        ('05-10-2021', 'Clicks', 30),
+	('06-10-2021', 'Clicks', 44),
+        ('07-10-2021', 'Clicks', 33),
+	('08-10-2021', 'Clicks', 12),
+        ('09-10-2021', 'Clicks', 56),
+	('10-10-2021', 'Clicks', 10);
