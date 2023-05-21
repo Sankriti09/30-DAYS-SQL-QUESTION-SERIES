@@ -57,6 +57,29 @@ i.e., count(product_id) group by customer_id, product_name.
 4. <p>In the main query, filtering most ordered item by using 'WHERE CLAUSE' in d_rnk<br>till yet we find the most popular items for each customer, but the customer with ID 'C' has ordered all the ordered at the same count.</p>
 5. Hence using the group_concat function for making the data more understandable.
 
+### But wait...what is group_conact function?
+>Group_concat function -> group the values of multiple rows into the single row that belongs to the same column.
+
+(BEFORE GROUP_CONCAT)     
+
+|id | product |       
+|---|---------|
+|a  | ramen   |                                             
+|b  | sushi   |                                              
+|b  | curry   |                                             
+|b  | ramen   |
+|c  | ramen   |
+
+(AFTER GROUP_CONCAT)
+
+|id | product |       
+|---|---------|
+|a  | ramen   |                                             
+|b  | sushi, curry, ramen  |                                              
+|c  | ramen   |
+
+So,it just makes the data more understandable by concatenating them into a column
+
 ## 💡 INSIGHTS GENERATED -
 - FOR Customer A, the most favourite item is Ramen
 - FOR Customer B, popular item is all the three items
