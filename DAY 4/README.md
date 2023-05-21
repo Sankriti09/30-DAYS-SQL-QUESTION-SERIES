@@ -2,48 +2,48 @@
 # DAY 4 | QUSTION 4 |-
 ❓Display all the employees who are getting more than the average salaries of all the employees(overall average salary).
 
- # **:file_folder: DATASETS**
+ # **:file_folder: DATASET**
  Danny has shared with you 3 key datasets for this case study:
-   ### **1. Employee_data**
+   ### **1. Employee**
 
  <details><summary>
  View Table
  </summary>
-The employee_data table captures all the employees information starting from their name, job role, salary, deptno(from this column we can join this table with the second table)
+The employee_data table captures all the information of each employee comprising salary, department, job role, comission earned.
 
- | customer_id  | order_date | product_id |
- | -----------  | ---------- | ---------- |
- | A	          | 2021-01-01 | 1 |
- | A	          | 2021-01-01 | 2 |
- | A	          | 2021-01-07 | 2 |
- | A	          | 2021-01-10 | 3 |
- | A	          | 2021-01-11 | 3 |
- | A	          | 2021-01-11 | 3 |
- | B	          | 2021-01-01 | 2 |
- | B	          | 2021-01-02 | 2 |
- | B	          | 2021-01-04 | 1 |
- | B          	| 2021-01-11 | 1 |
- | B	          | 2021-01-16 | 3 |
- | B	          | 2021-02-01 | 3 |
- | C	          | 2021-01-01 | 3 |
- | C	          | 2021-01-01 | 3 |
- | C          	| 2021-01-07 | 3 |
+ | Emp_no  | Ename      | job        | mgr  | hiredate           | sal   | comm | deptno|
+ | ------- | ---------- | ---------- | ---- | --------           | ----- | ---- | ----- |
+ | 7934    |  MILLER    |CLERK       |7782  |1982-01-23 00:00:00 |  1300 | NULL |  10   |
+ | 7902    |  FORD      |ANALYST     |7566  |1981-12-03 00:00:00 |  3000 | NULL |  20   |
+ | 7900    |  JAMES     |CLERK       |7698  |1981-12-03 00:00:00 |   950 | NULL |  30   |
+ | 7876    |  ADAMS     |CLERK       |7788  |1983-01-12 00:00:00 |  1100 | NULL |  20   |
+ | 7844    |  TURNER    |SALESMAN    |7698  |1981-09-08 00:00:00 |  1500 |  0   |  30   |
+ | 7839    |  KING      |PRESIDENT   |NULL  |1981-11-17 00:00:00 |  5000 | NULL |  10   |
+ | 7788    |  SCOTT     |ANALYST     |7566  |1982-12-09 00:00:00 |  3000 | NULL |  20   |
+ | 7782    |  CLARK     |MANAGER     |7839  |1981-06-09 00:00:00 |  2450 | NULL |  10   |
+ | 7698    |  BLAKE     |MANAGER     |7839  |1981-05-01 00:00:00 |  2850 | NULL |  30   |
+ | 7654    |  MARTIN    |SALESMAN    |7698  |1981-09-28 00:00:00 |  1250 | 1400 |  30   |
+ | 7566    |  JONES     |MANAGER     |7839  |1981-04-02 00:00:00 |  2975 | NULL |  20   | 
+ | 7521    |  WARD      |SALESMAN    |7698  |1981-02-22 00:00:00 |  1250 | 500  |  30   |
+ | 7499    |  ALLEN     |SALESMAN    |7698  |1981-02-20 00:00:00 |  1600 | 300  |  30   |
+ | 7369    |  SMITH     |CLERK       |7902  |1980-12-17 00:00:00 |   800 | NULL |  20   |
 
  </details>
  
   ### **2. Department**
-
- <details><summary>
+  
+  <details><summary>
  View Table
  </summary>
- The department table captures the product information i.e., deptno and the corresponding department name.
+ The department table captures all the information of different department names with their department names.
+  
+| DEPTNO | DNAME      |    LOC   |
+|--------|------------|----------|
+|  10	   | ACCOUNTING	| NEW YORK |
+|  20	   | RESEARCH	  | DALLAS   |
+|  30	   | SALES      |	CHICAGO  |
+|  40	   | OPERATIONS	| BOSTON   |
  
- | product_id  | product_name | price |
- | ----------  | ------------ | ----- |
- | 1	        | sushi | 10|
- | 2	        | curry | 15 |
- | 3	        | ramen | 12 |
-
  </details>
 
 ### 🎯APPROACH -
