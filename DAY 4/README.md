@@ -46,7 +46,7 @@ The employee_data table captures all the information of each employee comprising
  
  </details>
 
-### 🎯APPROACH -
+### 🎯 APPROACH -
 You can solve this question with so many approaches, I am using a sub-query within from clause
 - in the sub-query, fetching employee_name, job , sal along with calculating avg(salary) using window function
 - here calculating avg(sal) with over(),
@@ -55,7 +55,7 @@ also, we don't need the avg(salary) based on job/ department, so we can leave in
 - The FLOOR() function rounds up to the largest integer value that is smaller than or equal to a number.
 - At the end, In the main query using a where clause where the employee's salary > avg salary of all employees.
 
-## **:dart: INSIGHTS GENERATED**
+## 💡 INSIGHTS GENERATED
  - There is a total of 6 employees who earns more than the overall average salary.
  
 
