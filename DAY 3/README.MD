@@ -5,7 +5,7 @@ If the customer has more than one order on the same day, then select the first o
 
  # **:file_folder: DATASET**
  Danny has shared with you 3 key datasets for this case study:
-   ### **Employee_data**
+   ### **1. Employee**
 
  <details><summary>
  View Table
@@ -31,9 +31,22 @@ The employee_data table captures all the information of each employee comprising
 
  </details>
  
+  ### **2. Department**
+  
+  <details><summary>
+ View Table
+ </summary>
+ The department table captures all the information of different department names with their department names.
+  
+| DEPTNO | DNAME      |    LOC   |
+|  10	   | ACCOUNTING	| NEW YORK |
+|  20	   | RESEARCH	  | DALLAS   |
+|  30	   | SALES      |	CHICAGO  |
+|  40	   | OPERATIONS	| BOSTON   |
+ 
+ </details>
 
-
-### 🎯APPROACH -
+### 🎯 APPROACH -
 Solving this question using Subquery(you can use CTE)
 - here we have two conditions:-
 1. same department no
@@ -45,5 +58,5 @@ applying join in the where subquery too with the same column(deptno),
 📌NOTE : if we don't use join in subquery then we can't access the name and deptno at the same time from the department and employee table.
 - then adding condition e.ename = 'Scott' in the where clause subquery
 
-## **:dart: INSIGHTS GENERATED**
+### 💡 INSIGHTS GENERATED -
 There is a total of 5 employees including Scott who work in the same department with Scott.
