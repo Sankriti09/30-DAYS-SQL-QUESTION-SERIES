@@ -1,4 +1,5 @@
 
+--Employee Table Script :
 CREATE TABLE IF NOT EXISTS Employee
 (
     `EMPNO` INT,
