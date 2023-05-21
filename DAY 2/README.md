@@ -3,7 +3,7 @@
 > Assumption - A customer can order the product multiple times on the same day.
 
  # **:file_folder: DATASETS**
- Danny has shared with you 3 key datasets for this case study:
+ These two tables will help us to solve this above question :
    ### **1. SALES**
 
  <details><summary>
@@ -46,7 +46,7 @@ The sales table captures all customer_id level purchases with an corresponding o
 
  </details>
 
-### 🎯APPROACH -
+### 🎯 APPROACH -
 Solving this question using Subquery(you can use CTE)
 - Join both the tables(sales and menu) based on the same column(product_id)
 - To fetch the product that is purchased the most, add the dense_rank() according to product_id by each customer.
@@ -54,6 +54,6 @@ This will give a rank through which we can conclude which product was purchased 
 - In the main query, filtering the rank =1 as it will the most purchased item
 - At the end, to count how many times the product has been purchased add count() according to the product
 
-## **:dart: INSIGHTS GENERATED**
+### 💡 INSIGHTS GENERATED -
 Ramen is the most purchased item from the menu and has been purchased 8 times.
  
