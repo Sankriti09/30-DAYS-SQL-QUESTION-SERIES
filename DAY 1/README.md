@@ -55,7 +55,7 @@ Solving this question using Subquery(you can use CTE)
 There is customer A, who ordered two items as a first purchase.
 - in the main query, filtering out the customers who have a rank =1 with their ordered_item and order_date
 
-## **:dart: INSIGHTS GENERATED**
+### 💡 INSIGHTS GENERATED**
  1. Both customer with id A and B ordered their first dish as **Curry**
  2. Customer with Id 'C' ordered **Ramen** as the first purchase from the restaurant.
  
