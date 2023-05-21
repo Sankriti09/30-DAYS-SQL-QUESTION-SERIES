@@ -1,6 +1,7 @@
 # 30-DAYS-SQL-QUESTION-SERIES
 I have recently started my SQL Journey few months back.
 While I was learning SQL, I learnt too many new things like,starting from what are the DDL's, DML's to solving complex queries. After I started getting hands-on experience on writing SQL queries, I started posting SQL Problems on LinkedIN with the solutions.
+
 The only thing I follow till now is consistency and eagerness to solve SQL queries. Each skill has its own difficulty level so is SQL has.
 - EASY 
 - MEDIUM
