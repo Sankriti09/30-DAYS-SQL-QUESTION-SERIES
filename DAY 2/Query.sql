@@ -1,9 +1,9 @@
--- day 1
+-- day 2
 
 --Tables required to solve the question -
 -- 1. Sales 2. Menu
 
--- What was the first item from the menu purchased by each customer?
+-- What is the most purchased item on the menu and how many times was it purchased by all customers?
 SELECT product_name, COUNT(product_id)AS purchased_count
 FROM(SELECT s.customer_id,
             s.product_id,
