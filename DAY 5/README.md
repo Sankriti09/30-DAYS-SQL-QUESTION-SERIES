@@ -1,6 +1,7 @@
 
 # DAY 5 | QUSTION 5 |-
 ❓Dispay the activity_code column  i.e., impressions and clicks as new columns with their corresponding values based on the date for 1st October 2021 and 2nd October 2021.
+![This is an image]()
 
  # **:file_folder: DATASET**
    ### Online_Activity
@@ -8,19 +9,19 @@
  <details><summary>
  View Table
  </summary>
- The employee_data table captures all the information of each employee comprising salary, department, job role, comission earned.
+ This table captures all the information of the activity i.e., Impressions & Clicks with their corresponding count i.e., valus date-wise. 
  
- ![This is an image](https://ibb.co/jTFdKYG)
- 
+ ![This is an image](https://github.com/Sankriti09/30-DAYS-SQL-QUESTION-SERIES/assets/77229345/ac8ee73b-b982-4a41-b0be-b511c23b57da)
+
  </details>
 
 ### 🎯 APPROACH -
-▶we want impressions and clicks only for dates 1st and 2nd October, filtering records using 'WHERE' CLAUSE
-▶ Now, to fetch values for impressions and clicks,
+1. we want impressions and clicks only for dates 1st and 2nd October, filtering records using 'WHERE' CLAUSE
+2. Now, to fetch values for impressions and clicks,
 use two case statements for both impressions and clicks separately.
-▶ Using the max function in both the case statements as if we only apply case then it will also give null
+3. Using the max function in both the case statements as if we only apply case then it will also give null
 So to avoid null values and fetching only the numbers using the max function.
-▶ At the end, use group by date as we want impressions and click for both dates.
+3. At the end, use group by date as we want impressions and click for both dates.
 
 ## 💡 INSIGHTS GENERATED
  - There is a total of 6 employees who earns more than the overall average salary.
