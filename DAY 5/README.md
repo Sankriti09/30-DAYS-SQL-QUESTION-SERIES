@@ -1,10 +1,11 @@
 
 # DAY 5 | QUSTION 5 |-
 ❓Dispay the activity_code column  i.e., impressions and clicks as new columns with their corresponding values based on the date for 1st October 2021 and 2nd October 2021.
-![This is an image]()
+
+![This is an image](https://github.com/Sankriti09/30-DAYS-SQL-QUESTION-SERIES/assets/77229345/e97370b1-3b44-409a-8446-bbab162b94b7)
 
  # **:file_folder: DATASET**
-   ### Online_Activity
+   ### Online Activity
 
  <details><summary>
  View Table
@@ -24,4 +25,4 @@ So to avoid null values and fetching only the numbers using the max function.
 3. At the end, use group by date as we want impressions and click for both dates.
 
 ## 💡 INSIGHTS GENERATED
- - There is a total of 6 employees who earns more than the overall average salary.
+ - On 1st October 2021, there were 23 impressions and clicked one time by the user and on 2nd October 2021, there were 2000 impressions and cclicked 20 times by the user.
