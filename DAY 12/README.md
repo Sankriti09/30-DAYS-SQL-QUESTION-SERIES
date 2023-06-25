@@ -35,13 +35,14 @@ Using cte to solve a problem(you can use a subquery too)
 1. Write an SQL query to fetch only even rows from the table In the CTE, using the row_number function to find unique numbers for each row in a new column as r_n.
 2. In the main query, the r_n column has a unique number for each row and to filter even rows from the table using 'WHERE CLAUSE'
 3.  In the where clause, you can filter the even rows by two methods-
-  a. MOD(r_n,2) =0
-  b. r_n % 2=0
-Using MOD() to get the rows having even records.
+- MOD(r_n,2) =0
+* r_n % 2=0
+
+ 4. Using MOD() to fetch the even rows.
 
 ## But wait...what does MOD() do?
 📍 mod returns the remainder when a number is divided by another number.
-Syntax : MOD(first_number, second_number)
+> Syntax : MOD(first_number, second_number)
 
 
 ## 💡 INSIGHTS GENERATED -
