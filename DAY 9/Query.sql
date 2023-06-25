@@ -1,7 +1,7 @@
 
 -- DAY 09
 
--- ❓
+-- ❓Which item was the most popular for each customer?
 SELECT customer_id, 
        GROUP_CONACT(product_name) as MOST_POPULAR_PRODUCT
 FROM(SELECT s.customer_id
