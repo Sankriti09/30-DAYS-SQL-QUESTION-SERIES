@@ -1,3 +1,8 @@
+
+-- day 14| Question 14
+
+-- ❓ What is the median salary for each department?
+--📍 ASSUMPTION - Employees may have the same salary. Count all the salaries even duplicate a unique value.
 WITH cte AS
 (    
      SELECT ename
