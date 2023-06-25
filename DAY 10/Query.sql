@@ -1,5 +1,5 @@
 
--- DAY 09
+-- DAY 10
 
 -- ❓ Which item was purchased first by the customer after they became a member?
 -- ASSUMPTION - A customer can order the item on the joining date as well, assuming the order took place after becoming a member.
