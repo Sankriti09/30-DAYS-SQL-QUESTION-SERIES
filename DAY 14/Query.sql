@@ -24,3 +24,5 @@ SELECT deptno
 FROM cte1
 WHERE r_n BETWEE l_value/2 AND ((l_value/2)+1)   
 GROUP BY deptno;
+
+-- author : Sanskriti_Garg
