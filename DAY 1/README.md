@@ -38,7 +38,7 @@ The sales table captures all customer_id level purchases with an corresponding o
  <details><summary>
  View Table
  </summary>
- The final members table captures the product i.e., dises information like product_id, dishes name, their price
+ The menu table captures the product details i.e., dises information like product_id, dishes name, their price
  
  | product_id  | product_name | price |
  | ----------  | ------------ | ----- |
