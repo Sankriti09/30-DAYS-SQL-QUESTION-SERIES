@@ -10,3 +10,5 @@ FROM EMPLOYEE_DATA e
 INNER JOIN EMPLOYEE_DATA d ON e.sal = d.sal 
 WHERE e.empno<>d.empno
 ORDER BY 1;
+
+-- AUTHOR : Sanskriti_Garg
