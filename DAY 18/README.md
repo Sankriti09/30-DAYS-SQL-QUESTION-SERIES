@@ -1,5 +1,5 @@
 
-# DAY 18 | QUSTION 18 |-
+# DAY 18 | QUESTION 18 |-
 ❓  Display the employees who are earning the same salary in the table.
 > Assumption - In a department, more than one employee may have the same salary.
 
