@@ -1,6 +1,6 @@
 
-# DAY 15 | QUSTION 15 |-
-❓ write a query to fetch the number of users who purchased products on multiple days
+# DAY 15 | QUESTION 15 |-
+❓ Write a query to fetch the number of users who purchased products on multiple days
 > ASSUMPTION - A user can buy multiple products on the same day.
 
  # **:file_folder: DATASETS :**
@@ -26,7 +26,7 @@ The transacts table captures all the information of each user like which product
  </details>
 
 ### 🎯 APPROACH -
-Using cte's to solve a problem(you can use a subquery too)
+Using CTEs to solve a problem(you can use a subquery too)
 1. In the CTE, using DENSE_RANK() on the basis of transaction_date each User ID.
 2. As a result, we'll get a rank of each user id. This pattern helps to conclude how the user is purchasing products on different days
 3. To filter the users who purchased the products on different days, using 'WHERE CLAUSE' in which d_rnk=2
