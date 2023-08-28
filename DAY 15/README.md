@@ -25,7 +25,7 @@ The transacts table captures all the information of each user like which product
 
  </details>
 
-### 🎯 APPROACH -
+# 🎯 APPROACH -
 Using CTEs to solve a problem(you can use a subquery too)
 1. In the CTE, using DENSE_RANK() on the basis of transaction_date each User ID.
 2. As a result, we'll get a rank of each user id. This pattern helps to conclude how the user is purchasing products on different days
@@ -33,10 +33,9 @@ Using CTEs to solve a problem(you can use a subquery too)
 4. We'll get the list of users but to count the number of users, using count(user_id) where d_rnk=2 in the main query.
 
 
-## 💡 INSIGHTS GENERATED -
+# 💡 INSIGHTS GENERATED -
 - There are a total of 4 users in the table but only user with id 2 and 4 is purchasing products on different days.
-
- ![This is an image](https://github.com/Sankriti09/30-DAYS-SQL-QUESTION-SERIES/assets/77229345/e7d25945-1a56-46dd-87b8-f675a5c83acf)
+![This is an image](https://github.com/Sankriti09/30-DAYS-SQL-QUESTION-SERIES/assets/77229345/e7d25945-1a56-46dd-87b8-f675a5c83acf)
 
 
 
