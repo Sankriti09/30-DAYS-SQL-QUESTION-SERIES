@@ -25,17 +25,23 @@ The weather table comprises of all the information on which date temperature wit
 # 🎯 APPROACH -
 Using CTE
 1. to fetch higher temperatures on the following day than the previous day, using lag() on temperature based on the recordDate. This will give us the previous_temperatures according to date but with null values
-2. To handle the null value, I am using COALESCE(). 📍The COALESCE function takes several arguments and returns the first non-NULL argument.
+2. To handle the null value, I am using COALESCE().
 3. Using lag() within coalesce() it will replace null values caused by lag() with the temperature column data.
 4. In the main query, filtering records where the temperature is greater than the previous day, using 'WHERE CLAUSE' i.e., WHERE temperature>previous_tempertaure;
+
+### but wait....what is COALESCE()?
+The COALESCE function takes several arguments and returns the first non-NULL argument.
+For ex, COALESCE(a,b)
+
+You can read more about it : https://www.mysqltutorial.org/mysql-coalesce/
 
 # 💡 INSIGHTS GENERATED -
 Only IDs with 2 and 4 with higher temperatures compared to their previous dates (yesterday)
 
 ![image](https://github.com/Sankriti09/30-DAYS-SQL-QUESTION-SERIES/assets/77229345/71e04176-d8c4-4e3e-a80f-ed4d3b6ed5c7)
 
-## Attachment -
-LinkedIn Day 21 Post link : https://rb.gy/zu2g1
+## LinkedIn Post Attachment -
+LinkedIn Day 21 Post link: https://rb.gy/zu2g1
 
 
 
