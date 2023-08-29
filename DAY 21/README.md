@@ -34,6 +34,9 @@ Only IDs with 2 and 4 with higher temperatures compared to their previous dates 
 
 ![image](https://github.com/Sankriti09/30-DAYS-SQL-QUESTION-SERIES/assets/77229345/71e04176-d8c4-4e3e-a80f-ed4d3b6ed5c7)
 
+## Attachment -
+LinkedIn Day 21 Post link : https://rb.gy/zu2g1
+
 
 
 
