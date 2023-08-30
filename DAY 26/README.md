@@ -3,6 +3,7 @@
 ❓ Return the number of direct and overall reportees for each employee.
 - Direct Reportee - are the reportees who are directly reporting to a person.
 - Overall Reportee - are the reportees who are directly or indirectly reporting to a person.
+  
 Ex - there are two employees(empid '7' and '8') who are directly reporting to empid '2' but empid '15' and '16' are reporting to empid '7'
 Hence, the overall reportees for empid 2 will be '4'
 
