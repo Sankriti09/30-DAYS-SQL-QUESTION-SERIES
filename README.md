@@ -16,6 +16,7 @@ I have listed all the following sources below from where I have taken the questi
 2. Dany Diner's Case Study for SQL
 3. Employee dataset
 4. HackeRank SQL Quetions
+5. Leetcode
 
 I have tried to cover almost all the necessary functions,keywords in this repository.
 
